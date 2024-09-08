@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="imggallery.css">
+</head>
+<body>
+    <div class="Nav">
+       <p> ImageFlare</p>
+    </div>
+    <div class="gallery-container">
+        <div class="image-display">
+            <img id="main-image" src="darkbg01.jpg" alt="Gallery Image">
+        </div>
+        <div class="thumbnails">
+            <img src="darkbg01.jpg" alt="Thumbnail 1" onclick="showImage(0)">
+            <img src="darkbg02.jpg" alt="Thumbnail 2" onclick="showImage(1)">
+            <img src="darkbg03.jpg" alt="Thumbnail 3" onclick="showImage(2)">
+            <img src="darkbg04.jpg" alt="Thumbnail 4" onclick="showImage(3)">
+            <img src="darkbg05.jpg" alt="Thumbnail 5" onclick="showImage(4)">
+            <img src="darkbg06.jpg" alt="Thumbnail 6" onclick="showImage(5)">
+            <img src="darkbg07.jpg" alt="Thumbnail 7" onclick="showImage(6)">
+            <img src="darkbg08.jpg" alt="Thumbnail 8" onclick="showImage(7)"> 
+            <img src="darkbg09.jpg" alt="Thumbnail 9" onclick="showImage(8)">
+            <img src="darkbg10.jpg" alt="Thumbnail 10" onclick="showImage(9)">
+        </div>
+        <div class="navigation">
+            <button onclick="prevImage()">Previous</button>
+            <button onclick="nextImage()">Next</button>
+        </div>
+    </div>
+    <script src="imggallery.js"></script>
+</body>
+</html>
